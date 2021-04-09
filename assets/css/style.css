@@ -103,6 +103,8 @@ li {
   width: 60%; 
   margin: 0 auto;
 }
+
+.container { padding: 40px 0; }
 /*=================================
   Header styling starts here
 =================================*/
@@ -130,6 +132,7 @@ li {
 .hamburger:hover .bar2 { display: none; }
 .hamburger:hover .bar3 { transform: rotate(-45deg) translateX(5px); }
 
+footer .wrapper,
 header .wrapper { 
   padding: 20px;
   display: flex;
@@ -152,7 +155,6 @@ header .wrapper {
 
 .menuitem:nth-child(1) a { border-right: 1px solid #fff; }
 
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -161,6 +163,54 @@ header .wrapper {
   main styling starts here
 =================================*/
 
+/* banner start */
+
+.banner .wrapper { padding: 0 20px;}
+
+.banner h2 {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.taskcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskcontainer li {
+  height: 300px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.taskcontainer h3 {
+  padding: 20px 0;
+  font-size: 26px;
+  font-weight: bold
+}
+
+.high h3 { background-color: #ED1C24; }
+.medium h3 { background-color: #F26522; }
+.low h3 { background-color: #FFFF00; }
+
+.taskspan { padding: 40px 7%; }
+
+.taskspan span {
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin: 0 3px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+}
+
+/* banner end */
 
 
 
@@ -175,7 +225,6 @@ header .wrapper {
 /*=================================
   footer styling starts here
 =================================*/ 
-
 
 
 
