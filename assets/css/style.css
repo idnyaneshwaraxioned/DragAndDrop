@@ -208,6 +208,7 @@ header .wrapper {
   font-weight: bold;
   color: #fff;
   background-color: #000;
+  cursor: pointer;
 }
 
 /* banner end */
