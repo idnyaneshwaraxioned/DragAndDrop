@@ -1,14 +1,14 @@
 <!doctype html>
 
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
- 
+
   <meta charset="utf-8">
 
   <title>DragAndDrop</title>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 
 </head>
 
@@ -27,25 +27,68 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+      <div class="wrapper">
+        <h1 class="logo">
+          <a href="index.html" title="Logo">LOGO</a>
+        </h1>
+        <div class="hamburger desktop-none">
+          <span class="bar1">bar1</span>
+          <span class="bar2">bar2</span>
+          <span class="bar3">bar3</span>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li class="menuitem">
+              <a href="#FIXME" title="Start" class="start">Start</a>
+            </li>
+            <li class="menuitem">
+              <a href="#FIXME" title="Restart" class="restart">Restart</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-
+      <div class="banner">
+        <div class="wrapper">
+          <h2>SET YOUR PRIORITIES</h2>
+          <ul class="taskcontainer">
+            <li class="high">
+              <h3>HIGH</h3>
+            </li>
+            <li class="medium">
+              <h3>MEDIUM</h3>
+            </li>
+            <li class="low">
+              <h3>LOW</h3>
+            </li>
+          </ul>
+          <div class="taskspan">
+            <span>TASK 1</span>
+            <span>TASK 2</span>
+            <span>TASK 3</span>
+            <span>TASK 4</span>
+            <span>TASK 5</span>
+          </div>
+        </div>
+      </div>
     </main>
     <!--main section end-->
 
     <!--footer section start-->
-    <footer>      
-
+    <footer>
+      <div class="wrapper">
+        <h1 class="logo">
+          <a href="index.html" title="Logo">LOGO</a>
+        </h1>
+      </div>
     </footer>
     <!--footer section end-->
 
   </div>
   <!--container end-->
-
-<!-- <script src="js/vendors/jquery-1.8.3.min.js"></script>
-<script src="js/script.js"></script> -->
+<script src="/assets/js/script.js"></script>
 </body>
 </html>
